@@ -8,7 +8,6 @@ module AppStoreConnect
       attr_reader :kwargs, :config, :env
 
       DEFAULTS = {
-        analytics_enabled: true,
         schema: Schema.new(File.join(__dir__, '..', '..', 'config', 'schema.json'))
       }.freeze
       private_constant :DEFAULTS
